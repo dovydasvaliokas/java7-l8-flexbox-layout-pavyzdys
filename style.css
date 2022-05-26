@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+.headeris {
+    background-color: grey;
+    color:aliceblue;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid beige;
+}
+
+.meniu-juosta {
+    display: flex;
+    height: 60px;
+    background-color: black;
+    align-items: center;
+    gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.meniu-juostos-mygtukas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(164, 146, 146);
+    flex-grow: 1;
+}
+
+.mygtuko-nuoroda {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+.turinio-wrapperis {
+    display: flex;
+    border-bottom: 10px solid black;
+    
+}
+
+.straipsnio-containeris {
+    background-color: beige;
+    flex-grow: 3;
+    max-width: 65%;
+    min-width: 60%;
+    padding: 10px 20px 10px 30px;
+}
+
+.straipsnio-pastraipa {
+    text-align: justify;
+}
+
+.soninis-containeris {
+    background-color: azure;
+    flex-grow: 1;
+    min-width: 30%;
+    padding: 10px 20px 10px 30px;
+}
+
+.footeris {
+    height: 30px;
+    background-color:antiquewhite ;
+}
+
+/* KITAS VARIANTAS KAIP PADARYTI MENIU JUOSTĄ
+.meniu-juosta {
+    display: flex;
+    height: 60px;
+}
+
+.meniu-juostos-mygtukas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(164, 146, 146);
+    flex-grow: 1;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}*/
+
+
